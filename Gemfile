@@ -25,6 +25,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7'
   # helpers for creating less-verbose tests
   gem 'shoulda-matchers', '~> 3.1'
+
+  gem 'dotenv-rails', '~> 2.2.1'
 end
 
 group :development do
